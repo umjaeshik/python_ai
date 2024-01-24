@@ -12,5 +12,5 @@ for path in data_path:
 print(df.head())
 print(df['category'].value_counts())
 df.info()
-df.to_csv('./naver_news_titles_{}'.format(datetime.datetime.now().strftime('%Y%m%d')), index=False)
+df.to_csv('./naver_news_titles_{}.csv'.format(datetime.datetime.now().strftime('%Y%m%d')), index=False)
 
