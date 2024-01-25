@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.utils import to_categorical
 import pickle
 
-df=pd.read_csv('./naver_news_titles_20240124.csv')
+df=pd.read_csv('./naver_news_titles_20240125.csv')
 print(df.head())
 df.info()
 X=df['titles']

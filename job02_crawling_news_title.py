@@ -20,7 +20,7 @@ driver = webdriver.Chrome(service = service,options=options)
 
 pages = [105,105,105,81,105,81]
 df_titles = pd.DataFrame()
-for l in range(2,4):
+for l in range(4,6+):
     section_url = 'https://news.naver.com/main/main.naver?mode=LSD&mid=shm&sid1=10{}'.format(l)
     titles = []
     for k in range(1,pages[l]):
